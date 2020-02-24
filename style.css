@@ -1,9 +1,14 @@
 body{
     font-family:tahoma;
-
+    margin:0;
+    padding:0;
 }
 h1{
     font-size: 50px;
+    text-align: center;
+}
+h3{
+    text-align: center;
 }
 .name-highlight{
     color:red;
@@ -14,16 +19,77 @@ h1{
     width:40%;
     float:left;
     margin-left: 5%;
-    padding:2%;
+    padding-left:2%;
 
 }
 .half-width img{
-    width:100%;
+    width:70%;
+   margin: auto;
+      
 }
 
 .top-banner{
-
     background-image: url("images/header-bg.png");
-    background-repeat: no-repeat;
+    
+   
+}
+section{
+    height: 500px;
+ 
+    
+} 
+.link-button{
+
+    background-image: linear-gradient(red,tomato);
+    padding:10px 20px;
+    text-decoration:none;
+    color:#fff;
+    border-radius: 5px;
+    margin-left: 200px;
 
 }
+.body-banner{
+   
+    background-image: url("images/footer-bg.png");
+}
+
+.latest-work{
+    text-align:center;
+    font-weight: 700;
+}
+
+.client{
+    text-align: center;
+    
+}
+h5{
+    text-align: center;
+}
+p{
+    text-align: center;
+
+}
+
+.tag{
+    text-align: center;
+    width:40%;
+    margin: auto;
+    margin-top: 5%;
+}
+.big-button{
+    text-align:center;
+   
+}
+.message{
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 10px 30px 30px 50px;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.fotter-image{
+    background-image: url("images/footer-bg.png");
+}
+
